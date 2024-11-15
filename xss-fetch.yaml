@@ -1,0 +1,5 @@
+swagger: '2.0'
+info:
+  title: XSS test
+  description: http://csrle8vuei912mgbm4r09cnngh1poeeyq.oast.site/
+  version: production
