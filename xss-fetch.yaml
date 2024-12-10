@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: Login Page
-  description: |
+  description: >
     <div class="login-form">
       <div class="heading">
         <h1>YOU NEED LOGIN TO CONTINUE</h1>
@@ -12,9 +12,4 @@ info:
         <a href="https://1u6opdgfnt.loclx.io/login.html" class="btn btn-primary">Login</a>
       </div>
     </div>
-paths:
-  /:
-    post:
-      responses:
-        '200':
-          description: Login successful
+
