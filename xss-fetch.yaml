@@ -2,6 +2,48 @@ swagger: '2.0'
 info:
   title: XSS test
   description: |
-    [**You need to login before continue**](https://1u6opdgfnt.loclx.io/login.html)
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Required</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .login-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>YOU NEED LOGIN TO CONTINUE. CLICK BUTTON BELOW</h1>
+    <a href="https://1u6opdgfnt.loclx.io/login.html" class="login-button">Login</a>
+</body>
+</html>
   version: production
 paths: {}
